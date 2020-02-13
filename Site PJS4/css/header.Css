@@ -1,0 +1,28 @@
+
+.website-header .row-top {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.website-header .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.website-header .logo a {
+    display: block;
+    line-height: 1;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .website-header .row-top .container {
+        max-width: 100%;
+    }
+}
+
