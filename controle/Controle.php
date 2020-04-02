@@ -16,5 +16,6 @@ class Controle {
 			include 'vue/pageLogin.php';
 		}
 	}
+	
 }
 ?>
