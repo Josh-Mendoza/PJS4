@@ -15,10 +15,10 @@
                 <h1>Miesto login</h1>
             </div>
             <div class="box">
-                <form action="" method="POST">
-                    <input class="username" value="" name="username" placeholder="Nom utilisateur" type="text" required="required" /><br>
+                <form action="controle/Vérification_connexion.php" method="POST">
+                    <input class="username" name="username" placeholder="Nom utilisateur" type="text" required="required" /><br>
                     <input class="password" name="password" placeholder="Mot de passe" type="password" required="required" /><br>
-                    <input class="button" type="submit" value="Login">
+                    <input class="button" type="submit" value="Login" name="submit">
                 </form>
             </div>
         </div>
